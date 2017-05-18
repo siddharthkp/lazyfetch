@@ -1,6 +1,6 @@
 {
   "name": "lazyfetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Load stuff lazily on the browser",
   "main": "lib.js",
   "scripts": {
