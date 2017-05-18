@@ -1,6 +1,10 @@
-# lazyfetch
+<p align="center">
+  <img src="https://raw.githubusercontent.com/siddharthkp/lazyfetch/master/art.jpg" height="200px"/>
+  <br><br>
+  <b>Load stuff lazily on the browser.</b>
+  <br><br>
 
-Load stuff lazily on the browser.
+</p>
 
 &nbsp;
 
@@ -46,3 +50,6 @@ or load in the browser
 ### license
 
 MIT © [siddharthkp](https://github.com/siddharthkp)
+
+Logo credits to [Chris Lau](https://dribbble.com/chrislau)
+
