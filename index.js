@@ -3,7 +3,7 @@ const lazyfetch = (urls, callback, timeout) => {
   if (typeof window == 'undefined') return
 
   /* default timeout of 3s */
-  if (!timout) timeout = 3000
+  if (!timeout) timeout = 3000
 
   /*
     lazyfetch also supports single urls as well,
