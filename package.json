@@ -1,6 +1,6 @@
 {
   "name": "lazyfetch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Load stuff lazily on the browser",
   "main": "lib.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "browser",
     "callback"
   ],
-  "files": ["lib.js"],
+  "files": [
+    "lib.js"
+  ],
   "author": "siddharthkp",
   "license": "MIT",
   "devDependencies": {
