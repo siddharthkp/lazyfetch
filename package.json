@@ -13,6 +13,7 @@
     "browser",
     "callback"
   ],
+  "files": ["lib.js"],
   "author": "siddharthkp",
   "license": "MIT",
   "devDependencies": {
