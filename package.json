@@ -1,12 +1,18 @@
 {
   "name": "lazyfetch",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Load stuff lazily on the browser",
   "main": "lib.js",
   "scripts": {
     "minify": "babili index.js -o lib.js"
   },
-  "keywords": ["lazy", "lazyload", "array", "browser", "callback"],
+  "keywords": [
+    "lazy",
+    "lazyload",
+    "array",
+    "browser",
+    "callback"
+  ],
   "author": "siddharthkp",
   "license": "MIT",
   "devDependencies": {
