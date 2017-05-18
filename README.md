@@ -8,7 +8,7 @@
 
 &nbsp;
 
-- only 358 bytes (gzip)
+- only 376 bytes (gzip)
 - ignored on the server (relevant for server side rendering)
 
 &nbsp;
@@ -52,4 +52,3 @@ or load in the browser
 MIT © [siddharthkp](https://github.com/siddharthkp)
 
 Logo credits to [Chris Lau](https://dribbble.com/chrislau)
-

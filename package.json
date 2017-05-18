@@ -4,7 +4,7 @@
   "description": "Load stuff lazily on the browser",
   "main": "lib.js",
   "scripts": {
-    "minify": "babili index.js -o lib.js"
+    "minify": "babel index.js -o lib.js"
   },
   "keywords": [
     "lazy",
@@ -19,6 +19,8 @@
   "author": "siddharthkp",
   "license": "MIT",
   "devDependencies": {
+    "babel-preset-babili": "0.0.12",
+    "babel-preset-es2015": "6.24.1",
     "babili": "0.0.12"
   }
 }
