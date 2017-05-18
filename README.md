@@ -4,7 +4,7 @@ Load stuff lazily on the browser.
 
 &nbsp;
 
-- only 362 bytes
+- only 358 bytes (gzip)
 - ignored on the server (relevant for server side rendering)
 
 &nbsp;

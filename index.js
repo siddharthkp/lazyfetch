@@ -40,7 +40,7 @@ const lazyfetch = (urls, callback, timeout) => {
       tag.onload = callbackHandler
 
       if (['js', 'css'].includes(extension)) document.head.appendChild(tag)
-      else console.log(`lazy load does not know how to handle ${extension}`)
+      else console.warn(`lazyfetch does not know how to handle ${extension}`)
     })
   }, timeout)
 }
