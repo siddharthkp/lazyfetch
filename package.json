@@ -5,7 +5,11 @@
   "main": "lib.js",
   "scripts": {
     "build": "babel index.js -o lib.js",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test:build": "browserify test/src.js -o test/dist.js",
+    "test:watch": "watchify test/src.js -o test/dist.js",
+    "test:serve": "serve test/",
+    "dev": "run-p test:*"
   },
   "keywords": [
     "lazy",
@@ -22,6 +26,9 @@
   "devDependencies": {
     "babel-preset-babili": "0.0.12",
     "babel-preset-es2015": "6.24.1",
-    "babili": "0.0.12"
+    "babili": "0.0.12",
+    "browserify": "14.4.0",
+    "serve": "5.2.1",
+    "watchify": "3.9.0"
   }
 }
