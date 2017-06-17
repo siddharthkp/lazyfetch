@@ -18,7 +18,7 @@
 
 `npm install lazyfetch --save`
 
-```
+```js
 import lazyfetch from 'lazyfetch'
 
 lazyfetch(
