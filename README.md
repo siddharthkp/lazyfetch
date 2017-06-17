@@ -8,7 +8,8 @@
 
 &nbsp;
 
-- only 376 bytes (gzip)
+- only 403 bytes (gzip)
+- starts after the page load event
 - ignored on the server (relevant for server side rendering)
 
 &nbsp;
@@ -31,12 +32,6 @@ lazyfetch(
     // ...
   }
 )
-```
-
-or load in the browser
-
-```
-<script async src="https://unpkg.com/lazyfetch/lib.js"></script>
 ```
 
 &nbsp;
