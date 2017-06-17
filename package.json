@@ -4,7 +4,8 @@
   "description": "Load stuff lazily on the browser",
   "main": "lib.js",
   "scripts": {
-    "minify": "babel index.js -o lib.js"
+    "build": "babel index.js -o lib.js",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "lazy",
