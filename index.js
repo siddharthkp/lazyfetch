@@ -1,9 +1,6 @@
-const lazyfetch = (urls, callback, timeout) => {
+const lazyfetch = (urls, callback) => {
   /* don't load on the server */
   if (typeof window == 'undefined') return
-
-  /* default timeout of 3s */
-  if (!timeout) timeout = 3000
 
   /*
     lazyfetch also supports single urls as well,
@@ -22,7 +19,7 @@ const lazyfetch = (urls, callback, timeout) => {
     if (loaded === count && callback) callback()
   }
 
-  window.setTimeout(() => {
+  const loadUrls = () => {
     urls.map(url => {
       const extension = url.split('.').pop()
 
@@ -42,7 +39,9 @@ const lazyfetch = (urls, callback, timeout) => {
       if (['js', 'css'].includes(extension)) document.head.appendChild(tag)
       else console.warn(`lazyfetch does not know how to handle ${extension}`)
     })
-  }, timeout)
+  }
+  if (document.readyState === 'complete') loadUrls()
+  else window.onload = loadUrls
 }
 
 module.exports = lazyfetch
