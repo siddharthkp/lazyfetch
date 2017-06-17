@@ -57,3 +57,4 @@ typings/
 # dotenv environment variables file
 .env
 lib.js
+test/dist.js
