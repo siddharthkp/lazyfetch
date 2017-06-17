@@ -5,7 +5,7 @@
   "main": "lib.js",
   "scripts": {
     "build": "babel index.js -o lib.js",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "lazy",
