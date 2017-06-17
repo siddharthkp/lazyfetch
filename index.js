@@ -51,7 +51,7 @@ const loadUrls = () => {
 
 if (typeof window !== 'undefined') {
   if (document.readyState === 'complete') loadUrls()
-  else window.onload = loadUrls
+  else window.addEventListener('load', loadUrls)
 }
 
 module.exports = lazyfetch
